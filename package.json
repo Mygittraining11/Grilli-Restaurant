@@ -1,0 +1,16 @@
+{
+  "name": "starter-file---grilli",
+  "version": "1.0.0",
+  "description": "Grilli restaurant website",
+  "default": "index.js",
+  "scripts": {
+    "start": "parcel Grilli/index.html",
+    "build": "parcel build Grilli/index.html --out--dir dist",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5"
+  }
+}
